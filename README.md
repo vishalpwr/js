@@ -1,7 +1,10 @@
+[![Javascript tricks](https://img.shields.io/badge/Javascript-4630EB.svg?style=for-the-badge&labelColor=000)](https://github.com/vishalpwr/js)
+[![Subscribe To The Channel](https://img.shields.io/badge/Subscribe-red.svg?style=for-the-badge&logo=youtube&labelColor=red&logoWidth=20&logoColor=fff)](https://www.youtube.com/channel/UCC6L3eilEVJhhqiAdepWcng)
+
 # javascript-tricks
 
 ### 1 String to Array conversion
-**ex1**
+**ex1:**
 ```
 //string to array
 const str = 'javascript'
@@ -52,7 +55,7 @@ console.log(c)
 ```
 -----------------------------------------------------
 ### 5 The splice() method adds and/or removes array elements. The splice() method overwrites the original array
-**ex1**
+**ex1:**
 ```
 const ar=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16];
 ar.splice(1, 0, 'c', 'd')
@@ -61,7 +64,7 @@ console.log(ar);
 // Output:
 // [ 1, 'c', 'd', 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16 ]
 ```
-**ex2**
+**ex2:**
 ```
 ar.splice(1, 2, 'e', 'f')
 // splice(index, howmany, item)
