@@ -1,7 +1,6 @@
 # javascript-tricks
 
-## 1
-#### String to Array conversion
+### 1 String to Array conversion
 **ex1**
 ```
 //string to array
@@ -20,20 +19,18 @@ console.log(ar1)
 // ['j','a','v','a','s','c','r','i','p','t']
 ```
 -----------------------------------------------------
-## 2
-#### Remove duplicate items from array
+### 2 Remove duplicate items from Array
 ```
 const ar = ['a', 'b', 'c', 'a', 'd', 'e', 'c'];
 const set = new Set(ar);
-//set returns a object of unique items
+//set returns a object of unique items so we neet to convert it into array
 const array = [...set];
 console.log(array)
 // Output
 // ['a', 'b', 'c', 'd', 'e'];
 ```
 -----------------------------------------------------
-## 3
-#### Get total of items
+### 3 Get total of items
 ```
 const numbersAr = [1,2,3,4,7,8,0]
 const total = numbersAr.reduce((a, b) => {
@@ -44,8 +41,7 @@ console.log(total)
 // 25
 ```
 -----------------------------------------------------
-## 4
-### Merge 2 Arrays
+### 4 Merge 2 Arrays
 ```
 const a=[1,2,3,4];
 const b=[5,6,7,8];
@@ -55,8 +51,7 @@ console.log(c)
 // [1,2,3,4,5,6,7,8]
 ```
 -----------------------------------------------------
-## 5
-#### The splice() method adds and/or removes array elements. The splice() method overwrites the original array
+### 5 The splice() method adds and/or removes array elements. The splice() method overwrites the original array
 **ex1**
 ```
 const ar=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16];
